@@ -120,6 +120,8 @@ python evaluate.py
 
 ## 5. 改动步骤
 
+在原作者代码的基础上为了应用中文数据集做的改动
+
 **①在datasets目录下创建chinese数据集目录，类型格式参照ic13/15**
 
 * train_gts
@@ -158,6 +160,11 @@ python evaluate.py
 
 * 修改num2char, char2num
 
+**⑥改动configs/mixtrain/seg_rec_poly_fuse_feature_chinese_train.py**
+
+* 中文数据集如果直接用原作者的配置文件的参数效果不好(很差)，需要对一些参数做相应调整，具体请看文件
+* test的时候也需要改动seg_rec_poly_fuse_feature_chinese_test.py
+
 
 
 ## 6. 相关说明
@@ -167,6 +174,8 @@ python evaluate.py
 * 训练使用10w数据集，最好的acc能达到0.526，再训就要过拟合了。初步分析原因是当feature在送入识别网络之前，会先经过ROI Align，转化为[b,256,32,32]固定大小的feature map, 这样就会导致在大文本，长文本，竖直文本的情况下，势必会将原有汉字的方块形状扭曲。
 
 * 模型权重 https://drive.google.com/file/d/1b0FLYewH1gcw9bp_Bw24AdhNQeqPHMr6/view
+
+* 
 
   
 
