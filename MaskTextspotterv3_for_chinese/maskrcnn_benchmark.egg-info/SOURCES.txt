@@ -1,0 +1,17 @@
+README.md
+setup.py
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/vision.cpp
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/SigmoidFocalLoss_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/deform_conv_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/deform_conv_kernel_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/deform_pool_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/deform_pool_kernel_cuda.cu
+/home/xxhao/py/MaskTextSpotterV3/maskrcnn_benchmark/csrc/cuda/nms.cu
+maskrcnn_benchmark.egg-info/PKG-INFO
+maskrcnn_benchmark.egg-info/SOURCES.txt
+maskrcnn_benchmark.egg-info/dependency_links.txt
+maskrcnn_benchmark.egg-info/top_level.txt
