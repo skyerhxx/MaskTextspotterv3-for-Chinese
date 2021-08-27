@@ -78,7 +78,7 @@ bash test.sh
 
 * 测试结果: 生成的test_output/inference/chinese_test目录
 
-  * test_output目录说明: 目录中包含*results, *seg_results, *seg_visu, *visu 四个目录和一些pth文件(可忽略)
+  test_output目录说明: 目录中包含*results, *seg_results, *seg_visu, *visu 四个目录和一些pth文件(可忽略)
 
   ​           *results: 测试结果
 
