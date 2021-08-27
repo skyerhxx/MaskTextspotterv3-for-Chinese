@@ -11,7 +11,7 @@ MaskTextspotterv3应用于中文数据集
 
 cuda runtime 10.0
 
-1. **安装anaconda环境(步骤与MaskTextspotterv3原版本相同)**
+**安装anaconda环境(步骤与MaskTextspotterv3原版本相同)**
 
 ```shell
   conda create --name masktextspotter -y python=3.7
