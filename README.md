@@ -166,5 +166,7 @@ python evaluate.py
 
 * 训练使用10w数据集，最好的acc能达到0.526，再训就要过拟合了。初步分析原因是当feature在送入识别网络之前，会先经过ROI Align，转化为[b,256,32,32]固定大小的feature map, 这样就会导致在大文本，长文本，竖直文本的情况下，势必会将原有汉字的方块形状扭曲。
 
+* 模型权重 https://drive.google.com/file/d/1b0FLYewH1gcw9bp_Bw24AdhNQeqPHMr6/view
+
   
 
