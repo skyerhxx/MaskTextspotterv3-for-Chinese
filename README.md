@@ -131,10 +131,10 @@ python evaluate.py
 **②修改configs目录下的yaml文件**
 
 * ROI_MASK_HEAD下的PREDICTOR修改为“SeqMaskRCNNC4Predictor”
-* ROI_MASK_HEAD下的CHAR_NUM_CLASSES修改为加入汉字后的字典元素总个数(我的是3625)
+* ROI_MASK_HEAD下的CHAR_NUM_CLASSES修改为加入汉字后的字典元素总个数
 * DATASETS中加入chinese_train
 * SOLVER中的BASE_LR设为0.002
-* SEQUENCE中的NUM_CHAR修改为加入汉字后的字典元素总个数(我的是3625)
+* SEQUENCE中的NUM_CHAR修改为加入汉字后的字典元素总个数
 
 **③修改maskrcnn_benchmark/config/paths_catalog.py**
 
