@@ -98,9 +98,9 @@ python visualize_result.py
 
 结果见新生成的test_output_visu目录
 
-<img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210812154817362.png" alt="image-20210812154817362" style="zoom:50%;" />
+<img src="pic_resources\image-20210812154817362.png" alt="image-20210812154817362" style="zoom:50%;" />
 
-<img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210812154844626.png" alt="image-20210812154844626" style="zoom:50%;" />
+<img src="pic_resources\image-20210812154844626.png" alt="image-20210812154844626" style="zoom:50%;" />
 
 
 
@@ -110,7 +110,7 @@ python visualize_result.py
 python evaluate.py
 ```
 
-<img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210812154155667.png" alt="image-20210812154155667" style="zoom:67%;" />
+<img src="pic_resources\image-20210812154155667.png" alt="image-20210812154155667" style="zoom:67%;" />
 
 
 
@@ -142,13 +142,13 @@ python evaluate.py
 
 * 在class DatasetCatalog 中的DATASETS中仿照ic13加入chinese dataset的目录设置         
 
-     <img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210701103929119.png" alt="image-20210701103929119" style="zoom:50%;" />
+     <img src="pic_resources\image-20210701103929119.png" alt="image-20210701103929119" style="zoom:50%;" />
 
   
 
 * 在下面的get函数中仿照ic13加入
 
-  <img src="C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20210701104047129.png" alt="image-20210701104047129" style="zoom:50%;" />
+  <img src="pic_resources\image-20210701104047129.png" alt="image-20210701104047129" style="zoom:50%;" />
 
 
 
@@ -175,7 +175,8 @@ python evaluate.py
 
 * 模型权重 https://drive.google.com/file/d/1b0FLYewH1gcw9bp_Bw24AdhNQeqPHMr6/view
 
-* 
+  
 
   
+
 
